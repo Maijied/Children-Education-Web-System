@@ -1,0 +1,372 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #E6E6FA;
+	font-family: "Raleway", sans-serif;
+}
+.container
+{
+	margin: 0;
+	padding: 0;
+	background-color: #E6E6FA;
+}
+#head_wrap
+{
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+	border-bottom: 2px solid brown;
+	padding: 10px;
+	background: #AFEEEE;
+	background-color: black;
+}
+#header
+{
+	margin: 0 auto;
+	width: 1000px;
+	height: 35px;
+
+	
+}
+#menu{
+	line-height:35px;
+	padding:0;
+	margin:0;
+	float:left;
+}
+#menu li{
+	display:inline;
+	list-style:none;
+}
+#menu a{
+	margin:5px;
+	padding:5px;
+	text-decoration:none;
+	color:gray;
+	font-size:20px;
+	font-weight:bold;
+}
+#menu a:hover{
+	color:brown;
+	font-weight:bolder;
+	text-decoration:underline;
+}
+
+#form1
+{
+	float: right;
+	line-height: 35px;
+	padding-top:3px;
+}
+
+
+.button
+ {
+  display: inline-block;
+  padding: 8px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #717877;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.button:hover {background-color: #77b293}
+
+.button:active {
+  background-color: #77b293;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.content{
+	width: 1200px;
+	margin:0 auto;
+}
+#user_timeline{
+	background: #AFEEEE;
+	width:250px;
+	float:left;
+	height:850px;
+	border:1px solid black;
+	border-radius: 8px;
+
+
+}
+#user_details{
+	padding:10px;
+	margin-bottom:5px;
+}
+#user_details img{
+	border: 2px solid black;
+	border-radius:20px;
+}
+#user_details p{
+	margin-bottom:10px;
+	padding:5px;
+}
+#user_details a{
+	color:brown;
+	text-decoration:none;
+	font-size:20px;
+}
+#user_details a:hover{
+	color:black;
+	text-decoration:underline;
+	font-size:20px;
+	font-weight:bold;
+}
+#user_mention{
+	background:#E6E6FA;
+	border: 2px solid black;
+	border-radius:20px;
+	width:200px;
+	margin-top:20px ;
+	margin-right: 15px;
+	padding:5px;
+
+}
+#content_timeline{
+	float:right;
+	width:700px;
+	padding:10px;
+	margin-right:  100px;
+
+}
+
+.ff input{margin-bottom: : 5px;padding:15px;}
+.ff select {margin-bottom: : 5px; padding:15px;}
+#f input{
+	padding:15px;
+	border:1px solid black;
+	border-radius:5px;
+	font_weight:bolder;
+}
+#f textarea{
+	padding:10px;
+	border:1px solid black;
+	border-radius:5px;
+	font_weight:bolder;
+	width: 600px;
+
+}
+#f select{
+	padding:8px;
+	border:1px solid black;
+	border-radius:5px;
+	font_weight:bolder;
+}
+#f select:hover{
+	background:#FFF8DC
+}
+#f input:hover{
+	background:#FFF8DC
+}
+#f textarea:hover{
+	background:#FFF8DC
+}
+#f h2{
+	color:gray;
+	font-family:sansational;
+}
+#pagination{
+	margin-top:20px;
+}
+#pagination a{
+	color:blue;
+	text-decoration:none;
+	font-size:18px;
+	margin:5px;
+}
+#pagination a:hover{
+	color:brown;
+	font-weight:bold;
+}
+#posts{
+	
+	width:600px;
+	background:#AFEEEE;
+	padding:10px;
+	line-height:20px;
+	border:1px solid black;
+	text-align:justify;
+	border-radius: 5px;
+}
+#posts img{
+	float:left;
+	padding-top:5px;
+	padding-right:10px;
+}
+#posts h3{
+	
+	
+	color:brown;
+	font-size: 12px;
+	font-family: Georgia;
+}
+#posts button{
+	padding:5px;
+}
+#posts button:hover{
+	background:black;
+	color:white;
+}
+#posts h4
+{
+	color: red;
+	font-size: 20px;
+	font-family: Trebuchet MS;
+}
+
+#reply textarea{
+	padding:8px;
+	border:1px solid black;
+	border-radius:5px;
+	font_weight:bolder;
+	font-family:Courier New;
+	width: 608px;
+}
+#reply input{
+	padding:8px;
+	border:1px solid black;
+	border-radius:5px;
+	font_weight:bolder;
+	font-family:Courier New;
+}
+#reply input:hover{
+	padding:8px;
+	border:1px solid black;
+	border-radius:5px;
+	font_weight:bolder;
+	background-color:#F5F5DC;
+}
+#comments{
+	
+	background:#5f9EA0;
+	padding:5px;
+	width:612px;
+	border-bottom:2px solid orange;
+	font-family:Courier New;
+	
+}
+
+#comments span{
+	
+	color:#FFF8DC;
+	
+}
+#comments h3{
+	
+	color:#FFD700;
+}
+#comments p{
+	
+	line-height:20px;
+	font-size:16px;
+	padding:5px;
+}
+#pagination
+{
+	font-family: Economica;
+	font-size: 20px;
+	padding-right: 100px;
+	color: black;
+	font-weight: bold;
+}
+/*#form2
+{
+	float: right;
+	margin-top: 30px;
+	margin-right: -150px;
+
+}
+#form2 input
+{
+	width: 200px;
+	height: 20px;
+	padding: 10px;
+	border: 1px solid #999;
+	outline: none;
+	border-radius: 7px;
+	transition: 0.3s linear;
+	margin-top: 10px;
+
+}
+#form2 select
+{
+	width: 223px;
+    margin-top: 10px;	
+	padding: 13px;
+	border: 1px solid #999;
+	outline: none;
+	border-radius: 7px;
+	transition: 0.3s linear;
+}
+
+#form2:focus
+{
+	border:1px solid #000;
+	box-shadow: 0px 3px 10px #333;	
+}
+
+#form2 h2
+{
+	padding: 5px;
+	margin-left: 70px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-family: comic sans ms;
+	font-weight: bold;
+	
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text-center {
+    text-align: center;
+}*/
+
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+}
